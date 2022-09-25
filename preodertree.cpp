@@ -60,13 +60,13 @@ int main(){
                    / \    / \
                   4   5   6  7
 */
-cout << "The preorder of the tree is ";
+cout << "The preorder of the tree is "<<endl;
 preorder(root);
 cout << endl;
-cout << "The inorder of the above tree is :";
+cout << "\nThe inorder of the above tree is :"<<endl;
 inorder(root);
 cout << endl;
-cout << "The postorder of the above tree is :";
+cout << "\nThe postorder of the above tree is :"<<endl;
 postorder(root);
 
 
